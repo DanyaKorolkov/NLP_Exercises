@@ -14,7 +14,7 @@ dataset = load_dataset(data_path, revision="main")
 
 В ходе работы сравнивалась работа бустинга на различных эмбеддингах, а именно на:
 * TF-IDF Vectorizer
-* BERT
+* BERT-TINY
 * LASER
 
 В качестве бустинга брался LGBMClassifier без подбора гиперпараметров (с дефолтными при пустой инициализации)
